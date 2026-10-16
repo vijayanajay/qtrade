@@ -217,4 +217,21 @@ marimo/_lsp/
 __marimo__/
 
 # Streamlit
-.streamlit/secrets.toml
+# Local graft cache (rebuilt with `graft build`)
+/graft/
+
+# npm/npx temp artifacts
+_cacache/
+_logs/
+_npx/
+._npx/
+_update-notifier-last-checked
+.agents/
+.cursor/
+.gemini/
+.claude/
+
+
+# Agent directory symlinks (canonical skills are in .agents/skills)
+agent/
+
